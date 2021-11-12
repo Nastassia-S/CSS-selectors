@@ -1,0 +1,49 @@
+.container {
+    padding: 20px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.container1 > li {
+    color: red;
+}
+
+.classX + .classY {
+    color: red;
+}
+
+.container3 span:nth-child(even) {
+    color: red;
+}
+
+.container4 span:nth-of-type(4n+3) {
+    color: red;
+}
+
+.container5 span:nth-last-child(3) {
+    color: red;
+}
+
+.container6 span:nth-child(-n+3) {
+    color: red;
+}
+
+.container6 span:nth-last-child(-n+3) {
+    color: red;
+}
+
+.container7 button:first-of-type {
+    color: red;
+}
+
+.container7 button:last-of-type {
+    color: red;
+}
+
+.container8 div:not(.no-color) {
+    color: red;
+}
+
+.container9 div[color="red"] {
+    color: red;
+}
