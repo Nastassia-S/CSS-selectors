@@ -4,11 +4,11 @@
     margin-bottom: 20px;
 }
 
-.container1 > li {
+.container1 > ul > li {
     color: red;
 }
 
-.classX + .classY {
+.container2 p+span {
     color: red;
 }
 
